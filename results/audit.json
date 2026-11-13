@@ -1,0 +1,87 @@
+{
+  "counts": {
+    "1": {
+      "total": 195,
+      "labeled": 91,
+      "unlabeled": 104
+    },
+    "2": {
+      "total": 153,
+      "labeled": 72,
+      "unlabeled": 81
+    },
+    "3": {
+      "total": 75,
+      "labeled": 75,
+      "unlabeled": 0
+    }
+  },
+  "task1": {
+    "n_labeled": 91,
+    "labels": {
+      "no": 35,
+      "yes": 56
+    },
+    "confidence": {
+      "clear": 58,
+      "borderline": 18,
+      "uncertain": 15
+    },
+    "variable_keys": {
+      "psad": 91,
+      "vol": 91,
+      "pirads": 91,
+      "dre": 91,
+      "fh": 91,
+      "comorbidity": 91,
+      "cspca": 89,
+      "age": 91,
+      "bx": 91,
+      "psa": 91
+    },
+    "tool_usage": {
+      "radiology_report": 88,
+      "psa_trend": 79,
+      "laboratory_results": 41,
+      "previous_notes": 77
+    }
+  },
+  "task2": {
+    "n_labeled": 72,
+    "labels": {
+      "active_surveillance": 25,
+      "active_treatment": 31,
+      "continued_surveillance": 14,
+      "watchful_waiting": 2
+    },
+    "confidence": {
+      "clear": 58,
+      "borderline": 14
+    },
+    "variable_keys": {
+      "bx_gl_prim": 52,
+      "pirads": 72,
+      "bx_isup": 52,
+      "ct": 72,
+      "fh": 72,
+      "comorbidity": 72,
+      "psa": 72,
+      "bx_gl_sec": 52,
+      "age": 72,
+      "psad": 72,
+      "cspca": 70
+    },
+    "tool_usage": {}
+  },
+  "task3": {
+    "n_labeled": 75,
+    "events": {
+      "1": 19,
+      "0": 56
+    },
+    "months_range": [
+      1.3,
+      110.0
+    ]
+  }
+}

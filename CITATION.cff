@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "CHIMERA-Agent: Guideline-Anchored Multimodal Decision Agent for Prostate Cancer Care"
+authors:
+  - name: "CHIMERA-Agent contributors"
+year: 2026
+version: "0.1.0"
+license: MIT
+type: software
+abstract: "A guideline-anchored multimodal agent for pre-biopsy, post-biopsy and post-surgery prostate-cancer decision tasks, with rank-ensemble survival and supervised structured reasoning."
+keywords:
+  - prostate cancer
+  - clinical decision support
+  - multimodal learning
+  - survival analysis
+  - guideline-anchored model
+  - structured reasoning
+repository-code: "https://github.com/<your-org>/chimera-agent"

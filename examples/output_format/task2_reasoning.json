@@ -1,0 +1,18 @@
+{
+  "confidence": "clear",
+  "variable_weights": {
+    "pirads": "important",
+    "psa": "important",
+    "psad": "noted",
+    "age": "noted",
+    "comorbidity": "noted",
+    "fh": "noted",
+    "ct": "important",
+    "cspca": "important",
+    "bx_isup": "decisive",
+    "bx_gl_prim": "important",
+    "bx_gl_sec": "important"
+  },
+  "reveal_sequence": [],
+  "free_text": "Biopsy shows ISUP grade group 3 disease with adverse pathology, supporting definitive active treatment rather than surveillance."
+}

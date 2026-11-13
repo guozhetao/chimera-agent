@@ -1,0 +1,198 @@
+{
+  "configuration": {
+    "rebuilt_from": "E:\\Projects\\chimera-agent\\chimera_solution\\results\\benchmark\\llm"
+  },
+  "results": [
+    {
+      "task": 1,
+      "method": "DeepSeek-Flash",
+      "type": "LLM API",
+      "n": 40,
+      "metric": "f1_positive",
+      "value": 0.78125,
+      "accuracy": 0.65,
+      "f1_weighted": 0.53515625,
+      "f1_macro": 0.453125,
+      "roc_auc": null,
+      "reasoning_composite": 0.4849725946508784,
+      "case_score": 0.7071806486627196,
+      "bootstrap": {
+        "accuracy": {
+          "value": 0.65,
+          "low": 0.5,
+          "high": 0.8
+        },
+        "f1_weighted": {
+          "value": 0.53515625,
+          "low": 0.3614754098360656,
+          "high": 0.7122899803490385
+        },
+        "f1_macro": {
+          "value": 0.453125,
+          "low": 0.34521370023419207,
+          "high": 0.6000000000000001
+        },
+        "f1_positive": {
+          "value": 0.78125,
+          "low": 0.6551724137931034,
+          "high": 0.8787878787878788
+        }
+      },
+      "f1_positive_low": 0.6551724137931034,
+      "f1_positive_high": 0.8787878787878788,
+      "f1_weighted_low": 0.3614754098360656,
+      "f1_weighted_high": 0.7122899803490385,
+      "accuracy_low": 0.5,
+      "accuracy_high": 0.8
+    },
+    {
+      "task": 2,
+      "method": "DeepSeek-Flash",
+      "type": "LLM API",
+      "n": 40,
+      "metric": "f1_weighted",
+      "value": 0.5032828282828282,
+      "accuracy": 0.55,
+      "f1_weighted": 0.5032828282828282,
+      "f1_macro": 0.3753156565656566,
+      "roc_auc": null,
+      "reasoning_composite": 0.368321490883903,
+      "case_score": 0.46954249393309694,
+      "bootstrap": {
+        "accuracy": {
+          "value": 0.55,
+          "low": 0.375,
+          "high": 0.7
+        },
+        "f1_weighted": {
+          "value": 0.5032828282828282,
+          "low": 0.31294807052215523,
+          "high": 0.6710578328834907
+        },
+        "f1_macro": {
+          "value": 0.3753156565656566,
+          "low": 0.22917854488506664,
+          "high": 0.570437937937938
+        }
+      },
+      "f1_weighted_low": 0.31294807052215523,
+      "f1_weighted_high": 0.6710578328834907,
+      "accuracy_low": 0.375,
+      "accuracy_high": 0.7
+    },
+    {
+      "task": 3,
+      "method": "DeepSeek-Flash",
+      "type": "LLM API",
+      "n": 40,
+      "metric": "harrell_c_index",
+      "value": 0.7767857142857143,
+      "low": 0.5965205379482903,
+      "high": 0.9194526131145848,
+      "reasoning_composite": null,
+      "bootstrap": {
+        "harrell_c_index": {
+          "value": 0.7767857142857143,
+          "low": 0.5965205379482903,
+          "high": 0.9194526131145848
+        }
+      }
+    },
+    {
+      "task": 1,
+      "method": "GLM-5.3",
+      "type": "LLM API",
+      "n": 40,
+      "metric": "f1_positive",
+      "value": 0.7936507936507936,
+      "accuracy": 0.675,
+      "f1_weighted": 0.5842670401493931,
+      "f1_macro": 0.5144724556489262,
+      "roc_auc": null,
+      "reasoning_composite": 0.5846178559045836,
+      "case_score": 0.7413925592142412,
+      "bootstrap": {
+        "accuracy": {
+          "value": 0.675,
+          "low": 0.525,
+          "high": 0.8
+        },
+        "f1_weighted": {
+          "value": 0.5842670401493931,
+          "low": 0.3903225806451613,
+          "high": 0.7625
+        },
+        "f1_macro": {
+          "value": 0.5144724556489262,
+          "low": 0.36507936507936506,
+          "high": 0.6644355453852021
+        },
+        "f1_positive": {
+          "value": 0.7936507936507936,
+          "low": 0.6779661016949152,
+          "high": 0.8857142857142857
+        }
+      },
+      "f1_positive_low": 0.6779661016949152,
+      "f1_positive_high": 0.8857142857142857,
+      "f1_weighted_low": 0.3903225806451613,
+      "f1_weighted_high": 0.7625,
+      "accuracy_low": 0.525,
+      "accuracy_high": 0.8
+    },
+    {
+      "task": 2,
+      "method": "GLM-5.3",
+      "type": "LLM API",
+      "n": 40,
+      "metric": "f1_weighted",
+      "value": 0.3686549707602339,
+      "accuracy": 0.5,
+      "f1_weighted": 0.3686549707602339,
+      "f1_macro": 0.28304093567251465,
+      "roc_auc": null,
+      "reasoning_composite": 0.39041655386344265,
+      "case_score": 0.37409536653603614,
+      "bootstrap": {
+        "accuracy": {
+          "value": 0.5,
+          "low": 0.35,
+          "high": 0.65
+        },
+        "f1_weighted": {
+          "value": 0.3686549707602339,
+          "low": 0.20986779842497932,
+          "high": 0.5559451871657753
+        },
+        "f1_macro": {
+          "value": 0.28304093567251465,
+          "low": 0.1886742129418396,
+          "high": 0.43290328092959673
+        }
+      },
+      "f1_weighted_low": 0.20986779842497932,
+      "f1_weighted_high": 0.5559451871657753,
+      "accuracy_low": 0.35,
+      "accuracy_high": 0.65
+    },
+    {
+      "task": 3,
+      "method": "GLM-5.3",
+      "type": "LLM API",
+      "n": 40,
+      "metric": "harrell_c_index",
+      "value": 0.7574404761904762,
+      "low": 0.5644232794943821,
+      "high": 0.9250186567164179,
+      "reasoning_composite": null,
+      "bootstrap": {
+        "harrell_c_index": {
+          "value": 0.7574404761904762,
+          "low": 0.5644232794943821,
+          "high": 0.9250186567164179
+        }
+      }
+    }
+  ],
+  "failures": []
+}

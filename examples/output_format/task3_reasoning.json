@@ -1,0 +1,21 @@
+{
+  "confidence": "clear",
+  "variable_weights": {
+    "age": "noted",
+    "psa": "important",
+    "isup_grade_group": "decisive",
+    "gleason": "important",
+    "pt_stage": "important",
+    "positive_margin": "important",
+    "extraprostatic_extension": "important",
+    "seminal_vesicle_invasion": "noted",
+    "lymph_node_metastasis": "noted",
+    "lymphovascular_invasion": "noted"
+  },
+  "reveal_sequence": [
+    "surgical_pathology_report",
+    "pathology_report",
+    "radiology_report"
+  ],
+  "free_text": "After radical prostatectomy, ISUP grade group 3 disease with positive margins and extraprostatic extension places the patient in a higher-risk trajectory; close PSA monitoring is warranted."
+}

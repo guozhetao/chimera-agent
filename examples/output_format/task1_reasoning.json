@@ -1,0 +1,22 @@
+{
+  "confidence": "clear",
+  "variable_weights": {
+    "pirads": "decisive",
+    "psa": "important",
+    "psad": "important",
+    "vol": "noted",
+    "dre": "noted",
+    "fh": "noted",
+    "comorbidity": "noted",
+    "age": "important",
+    "bx": "important",
+    "cspca": "noted"
+  },
+  "reveal_sequence": [
+    "previous_notes",
+    "laboratory_results",
+    "psa_trend",
+    "radiology_report"
+  ],
+  "free_text": "Biopsy is recommended because the MRI shows a PI-RADS 5 lesion with elevated PSA density and a rising PSA trajectory."
+}

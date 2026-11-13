@@ -1,0 +1,752 @@
+{
+  "configuration": {
+    "n_per_task": 40,
+    "splits": 5,
+    "repeats": 4,
+    "seed": 42
+  },
+  "case_ids": {
+    "task1": [
+      "PT-pseudo_01b643727538",
+      "PT-pseudo_0615b2bd8504",
+      "PT-pseudo_062a1125899d",
+      "PT-pseudo_06b319f42fcb",
+      "PT-pseudo_0bd72f429a8b",
+      "PT-pseudo_11574b12444b",
+      "PT-pseudo_1185f6a68df0",
+      "PT-pseudo_11fe9c6ca833",
+      "PT-pseudo_152344add0f1",
+      "PT-pseudo_20a7e91c494c",
+      "PT-pseudo_20ba3f0f6ca0",
+      "PT-pseudo_25007bb807d7",
+      "PT-pseudo_259484ae733f",
+      "PT-pseudo_2cd88bcdf81c",
+      "PT-pseudo_33c8cd4571fd",
+      "PT-pseudo_37d8ae9b27f1",
+      "PT-pseudo_3b6ea1920967",
+      "PT-pseudo_3cc88c81f35a",
+      "PT-pseudo_3f75ae876abe",
+      "PT-pseudo_41ca49bed13d",
+      "PT-pseudo_47c373e230b6",
+      "PT-pseudo_47d8b39fd07f",
+      "PT-pseudo_48fb60dfd22f",
+      "PT-pseudo_4a4fedfc1f51",
+      "PT-pseudo_4e545d350c5b",
+      "PT-pseudo_4edb17f79e46",
+      "PT-pseudo_4f33b0253633",
+      "PT-pseudo_575cb2819e96",
+      "PT-pseudo_590e7b237744",
+      "PT-pseudo_b9aa0df93f2a",
+      "PT-pseudo_b9f0b7018502",
+      "PT-pseudo_c12bcf838ec8",
+      "PT-pseudo_c13fda040310",
+      "PT-pseudo_c39e94a13920",
+      "PT-pseudo_cce5d47c05dd",
+      "PT-pseudo_d38917f87b35",
+      "PT-pseudo_d5ceb6b4204f",
+      "PT-pseudo_d7d26761c714",
+      "PT-pseudo_dcd61cf9b443",
+      "PT-pseudo_e001f4d06517"
+    ],
+    "task2": [
+      "T2-003",
+      "T2-005",
+      "T2-009",
+      "T2-011",
+      "T2-013",
+      "T2-016",
+      "T2-018",
+      "T2-019",
+      "T2-020",
+      "T2-022",
+      "T2-023",
+      "T2-025",
+      "T2-027",
+      "T2-029",
+      "T2-031",
+      "T2-032",
+      "T2-035",
+      "T2-037",
+      "T2-038",
+      "T2-040",
+      "T2-042",
+      "T2-044",
+      "T2-046",
+      "T2-047",
+      "T2-048",
+      "T2-051",
+      "T2-052",
+      "T2-055",
+      "T2-056",
+      "T2-058",
+      "T2-059",
+      "T2-061",
+      "T2-101",
+      "T2-102",
+      "T2-103",
+      "T2-105",
+      "T2-106",
+      "T2-108",
+      "T2-109",
+      "T2-111"
+    ],
+    "task3": [
+      "T3-001",
+      "T3-004",
+      "T3-005",
+      "T3-007",
+      "T3-009",
+      "T3-010",
+      "T3-012",
+      "T3-014",
+      "T3-015",
+      "T3-016",
+      "T3-017",
+      "T3-020",
+      "T3-021",
+      "T3-022",
+      "T3-023",
+      "T3-024",
+      "T3-027",
+      "T3-028",
+      "T3-029",
+      "T3-031",
+      "T3-032",
+      "T3-033",
+      "T3-034",
+      "T3-036",
+      "T3-038",
+      "T3-040",
+      "T3-045",
+      "T3-046",
+      "T3-049",
+      "T3-050",
+      "T3-052",
+      "T3-061",
+      "T3-062",
+      "T3-063",
+      "T3-066",
+      "T3-067",
+      "T3-069",
+      "T3-071",
+      "T3-072",
+      "T3-075"
+    ]
+  },
+  "results": [
+    {
+      "task": 1,
+      "method": "Guideline rule",
+      "type": "Rule",
+      "n": 40,
+      "metric": "f1_positive",
+      "value": 0.8135593220338984,
+      "accuracy": 0.725,
+      "f1_weighted": 0.687046004842615,
+      "f1_macro": 0.6448748991121873,
+      "roc_auc": 0.6466666666666667,
+      "reasoning_composite": null,
+      "case_score": null,
+      "bootstrap": {
+        "accuracy": {
+          "value": 0.725,
+          "low": 0.575,
+          "high": 0.85
+        },
+        "f1_weighted": {
+          "value": 0.687046004842615,
+          "low": 0.5093640810621942,
+          "high": 0.832258064516129
+        },
+        "f1_macro": {
+          "value": 0.6448748991121873,
+          "low": 0.4666666666666667,
+          "high": 0.7849831450997761
+        },
+        "f1_positive": {
+          "value": 0.8135593220338984,
+          "low": 0.6923076923076923,
+          "high": 0.9032258064516129
+        },
+        "roc_auc": {
+          "value": 0.6466666666666667,
+          "low": 0.5219291723602069,
+          "high": 0.7664629049111807
+        }
+      },
+      "f1_positive_low": 0.6923076923076923,
+      "f1_positive_high": 0.9032258064516129,
+      "f1_weighted_low": 0.5093640810621942,
+      "f1_weighted_high": 0.832258064516129,
+      "accuracy_low": 0.575,
+      "accuracy_high": 0.85,
+      "roc_auc_low": 0.5219291723602069,
+      "roc_auc_high": 0.7664629049111807
+    },
+    {
+      "task": 1,
+      "method": "Logistic regression",
+      "type": "Traditional ML",
+      "n": 40,
+      "metric": "f1_positive",
+      "value": 0.7346938775510204,
+      "accuracy": 0.675,
+      "f1_weighted": 0.6769256089532588,
+      "f1_macro": 0.6576695194206715,
+      "roc_auc": 0.7413333333333334,
+      "reasoning_composite": null,
+      "case_score": null,
+      "bootstrap": {
+        "accuracy": {
+          "value": 0.675,
+          "low": 0.525,
+          "high": 0.8
+        },
+        "f1_weighted": {
+          "value": 0.6769256089532588,
+          "low": 0.5258508799497172,
+          "high": 0.8095670995670995
+        },
+        "f1_macro": {
+          "value": 0.6576695194206715,
+          "low": 0.49967083607636603,
+          "high": 0.7964040404040403
+        },
+        "f1_positive": {
+          "value": 0.7346938775510204,
+          "low": 0.5776190476190477,
+          "high": 0.8510835303388494
+        },
+        "roc_auc": {
+          "value": 0.7413333333333334,
+          "low": 0.5702777451441102,
+          "high": 0.8803884711779448
+        }
+      },
+      "f1_positive_low": 0.5776190476190477,
+      "f1_positive_high": 0.8510835303388494,
+      "f1_weighted_low": 0.5258508799497172,
+      "f1_weighted_high": 0.8095670995670995,
+      "accuracy_low": 0.525,
+      "accuracy_high": 0.8,
+      "roc_auc_low": 0.5702777451441102,
+      "roc_auc_high": 0.8803884711779448
+    },
+    {
+      "task": 1,
+      "method": "Random forest",
+      "type": "Traditional ML",
+      "n": 40,
+      "metric": "f1_positive",
+      "value": 0.7450980392156863,
+      "accuracy": 0.675,
+      "f1_weighted": 0.6725828262339419,
+      "f1_macro": 0.6484110885733604,
+      "roc_auc": 0.7146666666666668,
+      "reasoning_composite": null,
+      "case_score": null,
+      "bootstrap": {
+        "accuracy": {
+          "value": 0.675,
+          "low": 0.525,
+          "high": 0.825
+        },
+        "f1_weighted": {
+          "value": 0.6725828262339419,
+          "low": 0.5258251946042645,
+          "high": 0.8198260416968572
+        },
+        "f1_macro": {
+          "value": 0.6484110885733604,
+          "low": 0.49834552420759326,
+          "high": 0.7954205998604976
+        },
+        "f1_positive": {
+          "value": 0.7450980392156863,
+          "low": 0.5907705099778272,
+          "high": 0.8571428571428571
+        },
+        "roc_auc": {
+          "value": 0.7146666666666668,
+          "low": 0.5421994884910486,
+          "high": 0.8611328125000001
+        }
+      },
+      "f1_positive_low": 0.5907705099778272,
+      "f1_positive_high": 0.8571428571428571,
+      "f1_weighted_low": 0.5258251946042645,
+      "f1_weighted_high": 0.8198260416968572,
+      "accuracy_low": 0.525,
+      "accuracy_high": 0.825,
+      "roc_auc_low": 0.5421994884910486,
+      "roc_auc_high": 0.8611328125000001
+    },
+    {
+      "task": 1,
+      "method": "Gradient boosting",
+      "type": "Traditional ML",
+      "n": 40,
+      "metric": "f1_positive",
+      "value": 0.7547169811320755,
+      "accuracy": 0.675,
+      "f1_weighted": 0.6661425576519917,
+      "f1_macro": 0.636617749825297,
+      "roc_auc": 0.6480000000000001,
+      "reasoning_composite": null,
+      "case_score": null,
+      "bootstrap": {
+        "accuracy": {
+          "value": 0.675,
+          "low": 0.525,
+          "high": 0.8
+        },
+        "f1_weighted": {
+          "value": 0.6661425576519917,
+          "low": 0.4989646896881921,
+          "high": 0.8
+        },
+        "f1_macro": {
+          "value": 0.636617749825297,
+          "low": 0.4642857142857143,
+          "high": 0.7802197802197802
+        },
+        "f1_positive": {
+          "value": 0.7547169811320755,
+          "low": 0.5957446808510638,
+          "high": 0.861551724137931
+        },
+        "roc_auc": {
+          "value": 0.6480000000000001,
+          "low": 0.45704503829503834,
+          "high": 0.8120300751879699
+        }
+      },
+      "f1_positive_low": 0.5957446808510638,
+      "f1_positive_high": 0.861551724137931,
+      "f1_weighted_low": 0.4989646896881921,
+      "f1_weighted_high": 0.8,
+      "accuracy_low": 0.525,
+      "accuracy_high": 0.8,
+      "roc_auc_low": 0.45704503829503834,
+      "roc_auc_high": 0.8120300751879699
+    },
+    {
+      "task": 1,
+      "method": "MLP",
+      "type": "Deep learning",
+      "n": 40,
+      "metric": "f1_positive",
+      "value": 0.7659574468085106,
+      "accuracy": 0.725,
+      "f1_weighted": 0.7287234042553192,
+      "f1_macro": 0.7163120567375887,
+      "roc_auc": 0.736,
+      "reasoning_composite": null,
+      "case_score": null,
+      "bootstrap": {
+        "accuracy": {
+          "value": 0.725,
+          "low": 0.575,
+          "high": 0.85
+        },
+        "f1_weighted": {
+          "value": 0.7287234042553192,
+          "low": 0.5870254789536705,
+          "high": 0.8523060587111099
+        },
+        "f1_macro": {
+          "value": 0.7163120567375887,
+          "low": 0.5636363636363637,
+          "high": 0.8465957529256761
+        },
+        "f1_positive": {
+          "value": 0.7659574468085106,
+          "low": 0.6221428571428572,
+          "high": 0.88
+        },
+        "roc_auc": {
+          "value": 0.736,
+          "low": 0.5764175395754343,
+          "high": 0.8813391265597147
+        }
+      },
+      "f1_positive_low": 0.6221428571428572,
+      "f1_positive_high": 0.88,
+      "f1_weighted_low": 0.5870254789536705,
+      "f1_weighted_high": 0.8523060587111099,
+      "accuracy_low": 0.575,
+      "accuracy_high": 0.85,
+      "roc_auc_low": 0.5764175395754343,
+      "roc_auc_high": 0.8813391265597147
+    },
+    {
+      "task": 1,
+      "method": "Ours (GARF-H)",
+      "type": "Proposed",
+      "n": 40,
+      "metric": "f1_positive",
+      "value": 0.9056603773584906,
+      "accuracy": 0.875,
+      "f1_weighted": 0.8715932914046121,
+      "f1_macro": 0.8602375960866526,
+      "roc_auc": 0.8586666666666667,
+      "reasoning_composite": 0.67270456237005,
+      "case_score": 0.8474214236113805,
+      "bootstrap": {
+        "accuracy": {
+          "value": 0.875,
+          "low": 0.75,
+          "high": 0.975
+        },
+        "f1_weighted": {
+          "value": 0.8715932914046121,
+          "low": 0.7447780131074169,
+          "high": 0.9745487633713347
+        },
+        "f1_macro": {
+          "value": 0.8602375960866526,
+          "low": 0.7254004576659039,
+          "high": 0.9655431994824516
+        },
+        "f1_positive": {
+          "value": 0.9056603773584906,
+          "low": 0.8076923076923077,
+          "high": 0.9777777777777777
+        },
+        "roc_auc": {
+          "value": 0.8586666666666667,
+          "low": 0.6950059371574718,
+          "high": 0.9897904657297019
+        }
+      },
+      "f1_positive_low": 0.8076923076923077,
+      "f1_positive_high": 0.9777777777777777,
+      "f1_weighted_low": 0.7447780131074169,
+      "f1_weighted_high": 0.9745487633713347,
+      "accuracy_low": 0.75,
+      "accuracy_high": 0.975,
+      "roc_auc_low": 0.6950059371574718,
+      "roc_auc_high": 0.9897904657297019
+    },
+    {
+      "task": 2,
+      "method": "Guideline rule",
+      "type": "Rule",
+      "n": 40,
+      "metric": "f1_weighted",
+      "value": 0.8747474747474747,
+      "accuracy": 0.875,
+      "f1_weighted": 0.8747474747474747,
+      "f1_macro": 0.7932449494949495,
+      "roc_auc": null,
+      "reasoning_composite": null,
+      "case_score": null,
+      "bootstrap": {
+        "accuracy": {
+          "value": 0.875,
+          "low": 0.775,
+          "high": 0.975
+        },
+        "f1_weighted": {
+          "value": 0.8747474747474747,
+          "low": 0.7675840102707749,
+          "high": 0.9749294490939375
+        },
+        "f1_macro": {
+          "value": 0.7932449494949495,
+          "low": 0.6029808391947611,
+          "high": 0.9580536295055351
+        }
+      },
+      "f1_weighted_low": 0.7675840102707749,
+      "f1_weighted_high": 0.9749294490939375,
+      "accuracy_low": 0.775,
+      "accuracy_high": 0.975
+    },
+    {
+      "task": 2,
+      "method": "Logistic regression",
+      "type": "Traditional ML",
+      "n": 40,
+      "metric": "f1_weighted",
+      "value": 0.8216666666666667,
+      "accuracy": 0.825,
+      "f1_weighted": 0.8216666666666667,
+      "f1_macro": 0.7677083333333333,
+      "roc_auc": null,
+      "reasoning_composite": null,
+      "case_score": null,
+      "bootstrap": {
+        "accuracy": {
+          "value": 0.825,
+          "low": 0.7,
+          "high": 0.95
+        },
+        "f1_weighted": {
+          "value": 0.8216666666666667,
+          "low": 0.6810657238535529,
+          "high": 0.9381377051767674
+        },
+        "f1_macro": {
+          "value": 0.7677083333333333,
+          "low": 0.5185945304695304,
+          "high": 0.9315615399385561
+        }
+      },
+      "f1_weighted_low": 0.6810657238535529,
+      "f1_weighted_high": 0.9381377051767674,
+      "accuracy_low": 0.7,
+      "accuracy_high": 0.95
+    },
+    {
+      "task": 2,
+      "method": "Random forest",
+      "type": "Traditional ML",
+      "n": 40,
+      "metric": "f1_weighted",
+      "value": 0.8518253968253967,
+      "accuracy": 0.875,
+      "f1_weighted": 0.8518253968253967,
+      "f1_macro": 0.6695436507936507,
+      "roc_auc": null,
+      "reasoning_composite": null,
+      "case_score": null,
+      "bootstrap": {
+        "accuracy": {
+          "value": 0.875,
+          "low": 0.775,
+          "high": 0.975
+        },
+        "f1_weighted": {
+          "value": 0.8518253968253967,
+          "low": 0.7321394584376923,
+          "high": 0.9745823338330835
+        },
+        "f1_macro": {
+          "value": 0.6695436507936507,
+          "low": 0.5807965647456322,
+          "high": 0.9592744332961725
+        }
+      },
+      "f1_weighted_low": 0.7321394584376923,
+      "f1_weighted_high": 0.9745823338330835,
+      "accuracy_low": 0.775,
+      "accuracy_high": 0.975
+    },
+    {
+      "task": 2,
+      "method": "Gradient boosting",
+      "type": "Traditional ML",
+      "n": 40,
+      "metric": "f1_weighted",
+      "value": 0.7757983193277311,
+      "accuracy": 0.8,
+      "f1_weighted": 0.7757983193277311,
+      "f1_macro": 0.5991596638655462,
+      "roc_auc": null,
+      "reasoning_composite": null,
+      "case_score": null,
+      "bootstrap": {
+        "accuracy": {
+          "value": 0.8,
+          "low": 0.675,
+          "high": 0.925
+        },
+        "f1_weighted": {
+          "value": 0.7757983193277311,
+          "low": 0.6380249554902625,
+          "high": 0.91328668261563
+        },
+        "f1_macro": {
+          "value": 0.5991596638655462,
+          "low": 0.4734809720007089,
+          "high": 0.8851779878618113
+        }
+      },
+      "f1_weighted_low": 0.6380249554902625,
+      "f1_weighted_high": 0.91328668261563,
+      "accuracy_low": 0.675,
+      "accuracy_high": 0.925
+    },
+    {
+      "task": 2,
+      "method": "MLP",
+      "type": "Deep learning",
+      "n": 40,
+      "metric": "f1_weighted",
+      "value": 0.7293939393939394,
+      "accuracy": 0.75,
+      "f1_weighted": 0.7293939393939394,
+      "f1_macro": 0.5621212121212121,
+      "roc_auc": null,
+      "reasoning_composite": null,
+      "case_score": null,
+      "bootstrap": {
+        "accuracy": {
+          "value": 0.75,
+          "low": 0.625,
+          "high": 0.875
+        },
+        "f1_weighted": {
+          "value": 0.7293939393939394,
+          "low": 0.5895823870658757,
+          "high": 0.8733594890173837
+        },
+        "f1_macro": {
+          "value": 0.5621212121212121,
+          "low": 0.44158305404273146,
+          "high": 0.8352440693126143
+        }
+      },
+      "f1_weighted_low": 0.5895823870658757,
+      "f1_weighted_high": 0.8733594890173837,
+      "accuracy_low": 0.625,
+      "accuracy_high": 0.875
+    },
+    {
+      "task": 2,
+      "method": "Ours (GARF-H)",
+      "type": "Proposed",
+      "n": 40,
+      "metric": "f1_weighted",
+      "value": 0.8959150326797387,
+      "accuracy": 0.9,
+      "f1_weighted": 0.8959150326797387,
+      "f1_macro": 0.8429330065359476,
+      "roc_auc": null,
+      "reasoning_composite": 0.636292000319693,
+      "case_score": 0.8310092745897273,
+      "bootstrap": {
+        "accuracy": {
+          "value": 0.9,
+          "low": 0.8,
+          "high": 0.975
+        },
+        "f1_weighted": {
+          "value": 0.8959150326797387,
+          "low": 0.7953851683029454,
+          "high": 0.9756333606333606
+        },
+        "f1_macro": {
+          "value": 0.8429330065359476,
+          "low": 0.6190929501784765,
+          "high": 0.9842364532019705
+        }
+      },
+      "f1_weighted_low": 0.7953851683029454,
+      "f1_weighted_high": 0.9756333606333606,
+      "accuracy_low": 0.8,
+      "accuracy_high": 0.975,
+      "low": 0.7953851683029454,
+      "high": 0.9756333606333606
+    },
+    {
+      "task": 3,
+      "method": "Pathology score",
+      "type": "Clinical anchor",
+      "n": 40,
+      "metric": "harrell_c_index",
+      "value": 0.8154761904761905,
+      "low": 0.6848609639116924,
+      "high": 0.9344660516360258,
+      "bootstrap": {
+        "harrell_c_index": {
+          "value": 0.8154761904761905,
+          "low": 0.6848609639116924,
+          "high": 0.9344660516360258
+        }
+      },
+      "case_score": null
+    },
+    {
+      "task": 3,
+      "method": "Cox PH",
+      "type": "Traditional survival",
+      "n": 40,
+      "metric": "harrell_c_index",
+      "value": 0.78125,
+      "low": 0.5982780138973217,
+      "high": 0.928286061650687,
+      "bootstrap": {
+        "harrell_c_index": {
+          "value": 0.78125,
+          "low": 0.5982780138973217,
+          "high": 0.928286061650687
+        }
+      },
+      "case_score": null
+    },
+    {
+      "task": 3,
+      "method": "RF event",
+      "type": "Traditional ML",
+      "n": 40,
+      "metric": "harrell_c_index",
+      "value": 0.7261904761904762,
+      "low": 0.5159672797855624,
+      "high": 0.9089639299420265,
+      "bootstrap": {
+        "harrell_c_index": {
+          "value": 0.7261904761904762,
+          "low": 0.5159672797855624,
+          "high": 0.9089639299420265
+        }
+      },
+      "case_score": null
+    },
+    {
+      "task": 3,
+      "method": "MLP event",
+      "type": "Deep learning",
+      "n": 40,
+      "metric": "harrell_c_index",
+      "value": 0.7172619047619048,
+      "low": 0.4609958625445351,
+      "high": 0.9196260683760682,
+      "bootstrap": {
+        "harrell_c_index": {
+          "value": 0.7172619047619048,
+          "low": 0.4609958625445351,
+          "high": 0.9196260683760682
+        }
+      },
+      "case_score": null
+    },
+    {
+      "task": 3,
+      "method": "ET survival",
+      "type": "Traditional survival",
+      "n": 40,
+      "metric": "harrell_c_index",
+      "value": 0.6696428571428571,
+      "low": 0.4486804618383566,
+      "high": 0.8525189924030386,
+      "bootstrap": {
+        "harrell_c_index": {
+          "value": 0.6696428571428571,
+          "low": 0.4486804618383566,
+          "high": 0.8525189924030386
+        }
+      },
+      "case_score": null
+    },
+    {
+      "task": 3,
+      "method": "Ours (GARF-H)",
+      "type": "Proposed",
+      "n": 40,
+      "metric": "harrell_c_index",
+      "value": 0.875,
+      "low": 0.7809953277549962,
+      "high": 0.9565425421260662,
+      "bootstrap": {
+        "harrell_c_index": {
+          "value": 0.875,
+          "low": 0.7809953277549962,
+          "high": 0.9565425421260662
+        }
+      },
+      "case_score": null
+    }
+  ]
+}
