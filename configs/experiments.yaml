@@ -1,0 +1,46 @@
+data_root: E:/Projects/chimera-agent/train_release_updated_25_08/train_release
+
+local_models:
+  task1:
+    model: rule_anchored_exception
+    estimator: gb
+    neural: false
+    mode: exception
+  task2:
+    model: rule_anchor
+    neural: false
+    mode: rule
+  task3:
+    model: hybrid_survival
+    neural: true
+    neural_mode: compact
+    blend_weights: [0.45, 0.45, 0.10]
+
+reasoning:
+  supervised: true
+  retrieve_comparable_case: false  # optional; disabled because retrieved notes were not reliably matched
+  max_keywords: 14
+
+cross_validation:
+  scheme: repeated_stratified_kfold
+  splits: 5
+  repeats: 4
+  seed: 42
+
+figures:
+  script: scripts/make_report_figures.py
+  output_dir: results/report_figures
+  dpi: 300
+  palette: okabe_ito
+
+agent_comparison:
+  task1: [deepseek-flash, deepseek-v4-pro, glm-flash, glm-pro]
+  task2: [deepseek-flash, deepseek-v4-pro, glm-flash, glm-pro]
+  task3: [deepseek-flash, deepseek-v4-pro, glm-flash, glm-pro]
+  max_cases: 20
+  temperature: 0.1
+
+api:
+  # Set these in the shell, not in this file.
+  deepseek_key_env: DEEPSEEK_API_KEY
+  zhipu_key_env: ZHIPU_API_KEY
